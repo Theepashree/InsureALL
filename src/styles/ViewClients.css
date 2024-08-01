@@ -1,0 +1,40 @@
+.view-clients-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.view-clients-heading {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    margin-top: 40px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Table header styles */
+th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table row styles */
+tr {
+    border-bottom: 1px solid #ddd;
+    background-color: #f2f2f2;
+}
+
+/* Table cell styles */
+td {
+    padding: 10px;
+}
